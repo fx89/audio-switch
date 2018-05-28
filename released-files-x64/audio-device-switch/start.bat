@@ -1,0 +1,1 @@
+dotnet AudioDeviceSwitchApp.dll start config.xml

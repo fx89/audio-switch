@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SwitchConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Rules>
+		<SwitchRule>
+			<Polarity>true</Polarity>
+			<ActiveWindowTitleContent>Netflix</ActiveWindowTitleContent>
+			<AudioDeviceName>Speakers (2- USB Audio CODEC )</AudioDeviceName>
+		</SwitchRule>
+		<SwitchRule>
+			<Polarity>false</Polarity>
+			<ActiveWindowTitleContent>Netflix</ActiveWindowTitleContent>
+			<AudioDeviceName>Speakers (Realtek High Definition Audio)</AudioDeviceName>
+		</SwitchRule>
+	</Rules>
+	<PollingIntervalMillis>1000</PollingIntervalMillis>
+	<TimeoutMillis>5000</TimeoutMillis>
+</SwitchConfig>
